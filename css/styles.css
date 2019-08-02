@@ -1,0 +1,168 @@
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(222, 226, 233);
+}
+
+.mainsection {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.homecontent {
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+  }
+  
+/*-----------------------NAV BAR----------------------*/
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+.navlist {
+    color: white;
+    float: right;
+}
+
+.list-item {
+    float: left;
+    font-size: 13pt;
+    padding: 23px;
+    list-style-type: none;
+    border: 1px solid black;
+    margin-right: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.list-item a:hover {
+    color: rgb(234, 16, 25);
+}
+
+.logo {
+    height: 100px;
+    float: left;
+}
+
+/*------------------------FIRST IMAGE---------------------*/
+
+.first_image {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    top: 225px;
+    width: 100%;
+    height: 100;
+    font-size: 50pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.stanfordstudents {
+    top: 45px;
+    position: absolute;
+    font-size: 30pt;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100%;
+    width: 100%;
+    color: rgb(234, 16, 25);
+}
+
+.button1 {
+    position: absolute;
+    top: 630px;
+    width: 100%;
+    height: 100;
+}
+
+.appointment {
+    text-align: center;
+    width: 350px;
+    height: 60px;
+    font-size: 15pt;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: black;
+    border-color: white;
+    }
+
+.appointment a {
+    text-decoration: none;
+    color: white;
+}
+
+/*-------------------------FIRST BODY----------------------*/
+
+.video {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 0;
+    height: 230px;
+    width: 230px;
+}
+
+.essays {
+    display: block;
+    margin-top: 36px;
+    margin-left: 66px;
+    height: 200px;
+    width: 200px;
+}
+
+.advice {
+    display: block;
+    margin-top: 36px;
+    margin-left: 60px;
+    height: 220px;
+    width: 220px;
+}
+
+.box {
+    color: black;
+    display: block;
+    background-color: white;
+    height: 300px;
+    width: 350px;
+    padding: 25px;
+    margin: 25px;
+    font-size: 22pt;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    float: left;
+    margin-left: 45px;
+}
+
+
+/*--------------------------------FOOTER----------------------*/
+
+  
+  
+  p {
+    float: right;
+    margin-right: 10px;
+  }
+
+/***************************************CONTACT STYLES**********************************************/
+
+.contact-container {
+  font-family: Times;
+  font-size: 72pt;
+  text-align: center;
+}
